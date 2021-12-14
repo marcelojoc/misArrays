@@ -11,15 +11,15 @@
 
 
     <script>
-
         const products = [
             { title: 'Burger', price: 121 },
             { title: 'Pizza', price: 20 },
         ];
         const app = document.getElementById('app');
-        products.forEach(product => {
-            app.innerHTML += `<li>${product.title} - ${product.price}</li>`;
+        const lis = products.map(product => {
+            return `<li>${product.title} - ${product.price}</li>`;
         })
+        app.innerHTML = lis.join('');
     </script>
 </body>
 </html>
