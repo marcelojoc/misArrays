@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marcelojoc/misArrays/issues"
   },
-  "homepage": "https://github.com/marcelojoc/misArrays#readme"
+  "homepage": "https://github.com/marcelojoc/misArrays#readme",
+  "dependencies": {
+    "date-fns": "^2.27.0"
+  }
 }
