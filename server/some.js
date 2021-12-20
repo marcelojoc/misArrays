@@ -1,3 +1,31 @@
+/**
+Una de las funciones interesantes que podemos hacer uso con Javascript, para hacer nuestro código más elegante es Some. ¿Qué hace esta función? ¿Cuándo es aconsejable usarla?
+
+
+El método some() comprueba si un elemento del array cumple con una condición, y nos devuelve un booleano. Esto implica que esta función la utilizaremos cuando trabajemos con arrays de cualquier tipo, sean arrays de strings, array de objetos, etc.
+
+Sintaxis
+La sintaxis completa del método sería:
+
+arr.some(callback(element[, index[, array]])[, thisArg])
+Como podemos observar, además de utilizar el array y el elemento que compararemos, también nos tendremos la posibilidad (como en el resto de métodos de JS), la posibilidad de utilizar el index (posición dentro del array) y el array completo.
+
+ 
+
+Parámetros
+callbackFunción que verifica cada elemento, toma tres argumentos:
+
+element
+El elemento actual siendo procesado en el array.
+index Optional
+El índice del elemento del array que se está procesando.
+array Optional
+El array sobre el que ha sido llamada la función some().
+thisArg OptionalValor a usar como this cuando se ejecute callback.
+*/
+
+
+
 const numbers = [1, 2, 3, 4];
 
 let rta = false;
