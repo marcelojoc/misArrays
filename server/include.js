@@ -11,6 +11,6 @@ for (let index = 0; index < pets.length; index++) {
     }
 }
 
-const rta = pets.includes('dog')
+const rta = pets.includes('dog') // no recibe un arrow function
 console.log('for', includeInArray);
 console.log('includes', rta);
